@@ -15,6 +15,9 @@
     <link href="{% static 'v1/global/assets/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
     <link href="{% static 'v1/global/assets/css/icons.css' %}" rel="stylesheet" type="text/css">
     <link href="{% static 'v1/global/assets/css/style_dark.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'v1/global/assets/js/lib/plugins/bootstrap-sweetalert/sweet-alert.css' %}" rel="stylesheet" type="text/css" />
+    <!-- css global customizado -->
+    <link rel="stylesheet" href="{% static 'v1/global/assets/css/custom.css' %}">
     {% block css_specific %}{% endblock css_specific %}
 
     <script src="{% static 'v1/global/assets/js/modernizr.min.js' %}"></script>
@@ -731,6 +734,9 @@
 <!-- Custom main Js -->
 <script src="{% static 'v1/global/assets/js/jquery.core.js' %}"></script>
 <script src="{% static 'v1/global/assets/js/jquery.app.js' %}"></script>
+<script src="{% static 'v1/global/assets/js/lib/plugins/mask-custom/jquery.maskMoney.js' %}"></script>
+<script src="{% static 'v1/global/assets/js/jquery.custom.js' %}"></script>
+<script src="{% static 'v1/global/assets/js/botoes-acoes.js' %}"></script>
 
 {% block js_specific %}{% endblock js_specific %}
 
