@@ -1,13 +1,12 @@
 /** SIGNUP **/
-function showMessageNotify(text) {
-    var mensagem = $('.gerado-mensagem');
-    mensagem.attr('onclick', '$.Notification.autoHideNotify(\'warning\', \'top right\', \'Mensagem:\',\''+text+'\')');
+function showMessageNotify() {
+    var mensagem = $('#senha-diverge');
     mensagem.click();
 }
 
 function validPasswordsEqual(inputs) {
     if ($(inputs[1]).val() !== $(inputs[0]).val() || (!$.trim($(inputs[1]).val()) && !$.trim($(inputs[0]).val()))) {
-        showMessageNotify('A senha não corresponde! Por favor, repita a senha corretamente.');
+        showMessageNotify();
         $(inputs).parents('.input-group').addClass('has-warning');
         $(inputs).val('');
         $(inputs[0]).focus();
