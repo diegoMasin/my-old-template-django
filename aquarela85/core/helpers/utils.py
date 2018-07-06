@@ -27,6 +27,12 @@ context = {
 }
 
 
+def get_context(requisicao=None):
+    if requisicao:
+        context.update({'nome_usuario': requisicao.user.first_name})
+    return context
+
+
 def remove_moeda(string):
     if not string:
         return None

@@ -81,7 +81,7 @@ def do_logout(request):
         request.session['userremember'] = user_remember
 
     messages.success(request, 'Saiu com Sucesso!')
-    return redirect(utils.path_template_login)
+    return redirect(utils.url_name_login)
 
 
 def termo(request):

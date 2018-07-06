@@ -6,6 +6,5 @@ from aquarela85.core.helpers import utils
 
 @login_required
 def pagina_inicial(request):
-    context = utils.context
-
+    context = utils.get_context(request)
     return render(request, '{0}/index.html'.format(utils.path_template_home), context)
