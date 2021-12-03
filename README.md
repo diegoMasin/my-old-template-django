@@ -1,7 +1,5 @@
 ﻿![Alt text](https://github.com/diegoMasin/maximumtech/blob/master/assets/img/logo-colorida.png)<br>
 
-Empresa de Desenvolvimento de Software.
-
 # Padrão de projeto em Django - Aquarela85
 Já implementado layout, login e logout com cadastro de usuário, esse template chamado Aquarela85 seria o meu marco pessoal para se construir todos os projetos futuros em Django.
 
