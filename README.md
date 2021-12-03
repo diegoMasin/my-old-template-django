@@ -2,13 +2,10 @@
 
 Empresa de Desenvolvimento de Software.
 
-# Padrão de projeto Django Aquarela85
-Aquarela85 começou como um projeto de gestão comercial. Contudo o nome foi trocado pois este nome já pertencia a outra empresa.
-No início do processo de desenvolvimento, esse projeto já estava no ponto chave de começar os cruds do projeto. 
-Mesmo assim, já estava implementado layout, login e logout com cadastro de usuário, logo a partir daí foi denominado que Aquarela85 seria o marco para se construir projetos futuros em Django servindo como padrão e base para o início de qualquer novo projeto.
+# Padrão de projeto em Django - Aquarela85
+Já implementado layout, login e logout com cadastro de usuário, esse template chamado Aquarela85 seria o meu marco pessoal para se construir todos os projetos futuros em Django.
 
 ## Seguirá aqui abaixo os passos que serão necessários toda vez que for criado um novo projeto do zero usando este padrão.
-
 1 - Criar o repositório do seu novo projeto. Copiar para dentro dele a branch master da aquarela85 sem a pasta idea, se houver.<br>
 2 - Commitar e já realizar o primeiro push do seu novo projeto para não sobrecarregar ou misturar as alterações a seguir.<br>
 3 - Alterar a pasta interna com nome de aquarela85 para o nome do seu projeto.<br>
@@ -25,4 +22,4 @@ Mesmo assim, já estava implementado layout, login e logout com cadastro de usu�
 14 - Teste a aplicação funcionando local<br>
 15 - Até aqui projeto funcionando com Sucesso. Só alterar depois detalhes de layout que ainda tenha o nome Aquarela85<br>
 16 - Commit e Pushed seu segundo commit e ultimo, agora só começar a desenvolver.<br>
-SUCESS!
+SUCCESS!
